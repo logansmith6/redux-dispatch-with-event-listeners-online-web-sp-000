@@ -11,7 +11,7 @@ function reducer(state, action){
 }
 
 function dispatch(action){
-  state = reducer(state, action)
+  state = reducer(state, action);
 }
 reducer({count: 0}, {type: 'INCREASE_COUNT'});
 console.log(state)
