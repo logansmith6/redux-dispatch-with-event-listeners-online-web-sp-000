@@ -18,6 +18,6 @@ function render(){
   let container = document.getElementById('container');
   container.textContent = state.count
 }
-render
+render()
 
 console.log(state)
