@@ -20,5 +20,7 @@ function render(){
   container.textContent = state.count
 }
 
+dispatch({type: '@@INIT'})
+
 
 console.log(state)
